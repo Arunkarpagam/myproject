@@ -1,0 +1,71 @@
+.section {
+    width: 99%;
+    height: 100vh;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+}
+
+.men-text h1 span {
+    margin-left: 15px;
+    color: #fac031;
+    font-family: mv boli;
+    line-height: 22px;
+    font-weight: 60px;
+
+
+}
+
+.men-text h1 {
+    color: black;
+
+}
+
+.main-image img {
+    width: 470px;
+    height: 320px;
+    position: relative;
+    text-align: justify;
+    position: relative;
+    left: 76px;
+    margin-top: 30px;
+
+}
+
+.main-image p {
+    font-size: 30px;
+    font-family: mv boli;
+    margin-top: 25px;
+    font-weight: 50px;
+}
+
+.section p {
+    color: black;
+    width: 570px;
+    left: 125px;
+    text-align: center;
+    line-height: 25px;
+    bottom: 20px;
+}
+
+.main-btn {
+    background-color: #dda414;
+    position: relative;
+    left: 130px;
+    top: 20px;
+    width: 150px;
+    cursor: pointer;
+    padding: 11px 22px;
+    border-radius: 30px;
+
+}
+
+.main-btn a {
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,335 @@
+
+const Mydata = [
+    {
+        Albumid: 2,
+        id: 1,
+        key: "non-veg",
+        name: "MUTTON BRIYANI",
+        description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
+        price: "₹140",
+        rating: "4.3 / 5",
+        url: "https://th.bing.com/th/id/OIP.qxdUA2QGxQ88_fgHT7fNsgHaHa?w=176&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+    },
+    {
+        Albumid: 2,
+        id: 2,
+        key: "non-veg",
+        name: "NALLI",
+        description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
+        price: "₹100",
+        rating: "4.4 / 5",
+        url: "https://th.bing.com/th/id/OIP.Nah7bpaxRLqB9jm51Q5uUwAAAA?w=173&h=137&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+    },
+    {
+        Albumid: 2,
+        id: 3,
+        key: "non-veg",
+        name: "CHICKEN-CURRY",
+        description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
+        price: "₹80",
+        rating: "4.2 / 5",
+        url: "https://th.bing.com/th/id/OIP.MBjz3MsxB4JPnp0DiQXizgHaFM?w=287&h=202&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+    },
+    {
+        Albumid: 2,
+        id: 4,
+        key: "non-veg",
+        name: "GRILL-CHICKEN",
+        description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
+        price: "₹160",
+        rating: "4.3 / 5",
+        url: "https://tse4.mm.bing.net/th?id=OIP.wPml75OhoTt9sr-90sTBJwHaE5&pid=Api&P=0",
+    },
+    {
+        Albumid: 2,
+        id: 5,
+        key: "non-veg",
+        name: "CHICKEN-RICE",
+        description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
+        price: "₹140",
+        rating: "4.1 / 5",
+        url: "https://th.bing.com/th/id/OIP.foSWCBsiSQym4ehEoExeLQHaKo?w=200&h=288&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+    },
+    {
+        Albumid: 2,
+        id: 6,
+        key: "non-veg",
+        name: "CHICKEN-BRIYANI",
+        description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
+        price: "₹220",
+        rating: "4.8 / 5",
+        url: "https://th.bing.com/th/id/OIP.Q4f5lR46RdwAqe9hXJ7dlAHaF7?w=230&h=183&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+    },
+    {
+        Albumid: 2,
+        id: 7,
+        key: "non-veg",
+        name: "CHICKEN-PAKODA",
+        description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
+        price: "₹100",
+        rating: "4.6 / 5",
+        url: "https://th.bing.com/th/id/OIP.yicCx2zwVs9VTDrMa72EHgHaHa?w=179&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+    },
+    {
+        Albumid: 2,
+        id: 8,
+        key: "non-veg",
+        name: "AMUBUR-BRIYANI",
+        description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
+        price: "₹160",
+        rating: "4.8 / 5",
+        url: "https://th.bing.com/th/id/OIP.J1Y7AMxYqf7DbccV89hGjAHaEn?w=273&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+    },
+    {
+        Albumid: 2,
+        id: 9,
+        key: "non-veg",
+        name: "DINGIUAL-BRIYANI",
+        description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
+        price: "₹140",
+        rating: "4.7 / 5",
+        url: "https://th.bing.com/th/id/OIP.GuAixHTO-DI-yBbWvRynWgHaEz?w=259&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+    },
+    {
+        Albumid: 2,
+        id: 10,
+        key: "non-veg",
+        name: "GRILL-CHICKEN",
+        description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
+        price: "₹100",
+        rating: "4.6 / 5",
+        url: "https://th.bing.com/th/id/OIP.4yMovzyCSuWMKhJXSk9pYwHaE7?w=283&h=188&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+    },
+    {
+        Albumid: 3,
+        id: 11,
+        key: "chinese",
+        name: "NOODLES",
+        description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
+        price: "₹70",
+        rating: "4.7 / 5",
+        url: "https://th.bing.com/th/id/OIP.9szNAD4r5Kt5zeUrS2pP8wHaE8?w=288&h=192&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+    },
+    {
+        Albumid: 3,
+        id: 12,
+        key: "chinese",
+        name: "CRUNCH-NOODLES",
+        description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
+        price: "₹160",
+        rating: "4.5 / 5",
+        url: "https://th.bing.com/th/id/OIP.L5mMUEYEOprONOnvy3PmlwAAAA?w=203&h=284&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+    },
+    {
+        Albumid: 3,
+        id: 13,
+        key: "chinese",
+        name: "SPICY CHICKEN",
+        description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
+        price: "₹240",
+        rating: "4.5 / 5",
+        url: "https://th.bing.com/th/id/OIP.tXV4xxVJbdSuhz-6nWV_-QHaEz?w=276&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+    },
+    {
+        Albumid: 3,
+        id: 14,
+        key: "chinese",
+        name: "SPECIAL NOODLES",
+        description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
+        price: "₹110",
+        rating: "4.6 / 5",
+        url: "https://th.bing.com/th/id/OIP.RoRWK8H2hWvNHp7Ebi9wXAHaD4?w=330&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+    },
+    {
+        Albumid: 3,
+        id: 15,
+        key: "chinese",
+        name: "HOT NOODLES",
+        description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
+        price: "₹130",
+        rating: "4.8 / 5",
+        url: "https://th.bing.com/th/id/OIP.p0ZNzv9p_vl55FyaVVyW8AHaLH?w=203&h=304&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+    },
+    {
+        Albumid: 3,
+        id: 16,
+        key: "chinese",
+        name: "CHINESE CHICKEN",
+        description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
+        price: "₹190",
+        rating: "4.3 / 5",
+        url: "https://th.bing.com/th/id/OIP.zdZjlRZVZB-1qgQycQ9BLAHaEc?w=300&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+    },
+    {
+        Albumid: 3,
+        id: 17,
+        key: "chinese",
+        name: "CRISP RICE BOWL",
+        description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
+        price: "₹180",
+        rating: "4.5 / 5",
+        url: 'https://th.bing.com/th/id/OIP.yOgrfQu2oqBRMLlV3lMKYwHaJ4?w=203&h=271&c=7&r=0&o=5&dpr=1.3&pid=1.7',
+    },
+    {
+        Albumid: 3,
+        id: 18,
+        key: "chinese",
+        name: "RICE BOWL",
+        description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
+        price: "₹190",
+        rating: "4.7 / 5",
+        url: 'https://th.bing.com/th/id/OIP.b_TNY_zS6Ti3hjsMCINkYQHaJX?w=203&h=257&c=7&r=0&o=5&dpr=1.3&pid=1.7',
+    },
+    {
+        Albumid: 3,
+        id: 19,
+        key: "chinese",
+        name: "CHINESE CHICKEN GRAVY",
+        description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
+        price: "₹310",
+        rating: "4.9 / 5",
+        url: 'https://th.bing.com/th/id/OIP.0hHVHoDjB7b9sE2f72LCngHaEK?w=281&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7',
+    },
+    {
+        Albumid: 3,
+        id: 20,
+        key: "western",
+        name: "VEG",
+        description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
+        price: "₹120",
+        rating: "4.3 / 5",
+        url: 'https://th.bing.com/th/id/OIP.-gL6OzyfTnTD5XFR_z-DuwHaE_?w=246&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7',
+    },
+    {
+        Albumid: 4,
+        id: 21,
+        key: "western",
+        name: "WESTERN-BRIYANI",
+        description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
+        price: "₹320",
+        rating: 4.9 / 5,
+        url: "https://th.bing.com/th/id/OIP.tR2PAcn_z3UOE_nj-JTYyAHaFa?w=242&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+    },
+    {
+        Albumid: 4,
+        id: 22,
+        key: "western",
+        name: "WESTERN-PACK",
+        description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
+        price: "₹499",
+        rating: "4.6 / 5",
+        url: 'https://th.bing.com/th/id/OIP.UUDSWJTgOF372eVehqj5AwHaE8?w=271&h=181&c=7&r=0&o=5&dpr=1.3&pid=1.7',
+    },
+    {
+        Albumid: 4,
+        id: 23,
+        key: "western",
+        name: "HALF-BEEF",
+        description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
+        price: "₹420",
+        rating: "4.7 / 5",
+        url: "https://tse1.mm.bing.net/th?id=OIP.YnuhDfyrF219rVX2-PQkagHaE8&pid=Api&P=0",
+    },
+    {
+        Albumid: 4,
+        id: 24,
+        key: "western",
+        name: "BURGER",
+        description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
+        price: "₹120",
+        rating: "4.5 / 5",
+        url: 'https://th.bing.com/th/id/OIP.gZ9DXGXfPX1LOBO7jH10VgHaE3?w=270&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7',
+    },
+    {
+        Albumid: 4,
+        id: 25,
+        key: "western",
+        name: "CHICKEN",
+        description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
+        price: "₹180",
+        rating: "4.4 / 5",
+        url: 'https://th.bing.com/th/id/OIP.-XXO4iHkVzcd7LyuI08UxgHaFj?w=248&h=186&c=7&r=0&o=5&dpr=1.3&pid=1.7',
+    },
+    {
+        Albumid: 4,
+        id: 26,
+        key: "western",
+        name: " RICE-WITH-SAMBAR",
+        description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
+        price: "₹190",
+        rating: "4.3 / 5",
+        url: 'https://th.bing.com/th/id/OIP.2hNygmiMhSaYH8vKfYOj9QHaE8?w=253&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7',
+    },
+    {
+        Albumid: 4,
+        id: 27,
+        key: "western",
+        name: "BREAD&EGG",
+        description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
+        price: "₹70",
+        rating: "4.6 / 5",
+        url: 'https://th.bing.com/th/id/OIP.q-geHGGCZJz4eXHZLbt_EgHaHa?w=191&h=191&c=7&r=0&o=5&dpr=1.3&pid=1.7',
+    },
+    {
+        Albumid: 4,
+        id: 28,
+        key: "western",
+        name: "0MELETTE",
+        description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
+        price: "₹70",
+        rating: "4.7 / 5",
+        url: 'https://th.bing.com/th/id/OIP.pSGsMWhprQFtvbQJCouU0wHaE8?w=274&h=183&c=7&r=0&o=5&dpr=1.3&pid=1.7',
+    },
+    {
+        Albumid: 4,
+        id: 29,
+        key: "western",
+        name: "BREAD OMELETTE",
+        description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
+        price: "₹120",
+        rating: "4.3 / 5",
+        url: 'https://th.bing.com/th/id/OIP.aWAzWYgr2czRUxFLy8s3HgHaE8?w=293&h=195&c=7&r=0&o=5&dpr=1.3&pid=1.7',
+    },
+    {
+        Albumid: 4,
+        id: 30,
+        key: "western",
+        name: "SLICE-BEEF",
+        description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
+        price: "₹320",
+        rating: "4.6 / 5",
+        url: 'https://th.bing.com/th/id/OIP.78n9wq9e3jvaavXKo9j7ygHaD4?w=274&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7',
+    },
+
+]
+export default Mydata
